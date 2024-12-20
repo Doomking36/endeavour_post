@@ -4,7 +4,7 @@
 sudo pacman -Syu
 
 # Install necessary packages
-pkgs = "git doas neovim sx fastfetch imlib2 alsa-lib alsa-utils picom feh rofi firefox"
+pkgs = "git doas neovim sx fastfetch imlib2 alsa-lib alsa-utils xcompmgr feh rofi firefox"
 sudo pacman -S $pkgs
 
 # Create doas.conf
