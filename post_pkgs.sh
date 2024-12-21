@@ -24,7 +24,9 @@ git clone https://github.com/lukesmithxyz/st
 cd st && doas make clean install && cd ~/
 
 git clone https://github.com/nvim-lua/kickstart.nvim ~/.config/nvim
-
 doas ln -s /usr/bin/nvim /usr/bin/vim
+
+git clone --depth 1 https://github.com/doomemacs/doomemacs ~/.config/emacs
+# ~/.config/emacs/bin/doom install
 
 echo "Post-installation setup is complete. Please reboot your system."
