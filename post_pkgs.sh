@@ -20,7 +20,7 @@ git clone https://github.com/siduck/chadwm --depth 1 ~/.config/chadwm
 cd ~/.config/chadwm/chadwm && doas make clean install && cd ~/
 cp ~/.config/chadwm/scripts/run.sh ~/
 
-git clone https://github.com/Doomking36/st
+git clone https://github.com/lukesmithxyz/st
 cd st && doas make clean install && cd ~/
 
 git clone https://github.com/nvim-lua/kickstart.nvim ~/.config/nvim
